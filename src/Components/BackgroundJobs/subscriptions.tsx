@@ -83,12 +83,11 @@ export const SubscriptionsBackground = () => {
 					maxIndex = index
 				}
 			})
-			console.log({ maxEnd, nowUnix, sub })
-			if (maxEnd < nowUnix && maxIndex !== -1) {
+			/* if (maxEnd < nowUnix && maxIndex !== -1) {
 				console.log("sub", sub.subId, "expired")
 				dispatch(updateActiveSub({ sub: { ...sub, unsubReason: "expire", unsubbedAtUnix: Math.floor(Date.now() / 1000) }}));
 				return
-			}
+			} */
 			if (maxEnd > nowUnix) {
 				console.log("sub", sub.subId, "is up to date")
 				return

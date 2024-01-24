@@ -18,6 +18,7 @@ import moment from 'moment';
 
 
 export enum Interval {
+  FIFTY_SECONDS = "fifty",
 	DAILY = "Daily",
 	WEEKLY = "Weekly",
 	MONTHLY = "Monthly",
@@ -34,6 +35,8 @@ const getPeriodSeconds = (interval: Interval) => {
 			return 7 * 24 * 60 * 60;
 		case Interval.MONTHLY:
 			return 32 * 24 * 60 * 60;
+    case Interval.FIFTY_SECONDS:
+      return 50;
 	}
 }
 
