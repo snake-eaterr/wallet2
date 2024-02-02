@@ -71,7 +71,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }): JSX.Element => {
           <Header />
           {children}
           <LoadingOverlay />
-          <Footer />
+          <Footer /> 
         </React.Fragment>
       )}
     </div>
