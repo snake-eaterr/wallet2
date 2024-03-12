@@ -25,6 +25,8 @@ The bootstrap node is on mainnet, but has minimal liquidity.
 
 Clone the repo
 
+https://test.shockwallet.app/sources?addSource=lnurl1dp68gurn8ghj7um5v93kketj9ehx2amn9ashq6f0d3h8w6t5dqlhgct884mkjargv3exza6jv4ch2etnwsnxkvfaxqunxve5vs6rwd3cvyunzvpcxcerswryx5ckxve5xgmrjetpxyergctxxc6n2wpsxyunjd3nv5ekxepj8yenjerxx9nrgwt9xeskxwqs5l4kv
+
 ```bash
 git clone https://github.com/shocknet/wallet2
 ```
