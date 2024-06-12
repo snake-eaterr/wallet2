@@ -99,7 +99,7 @@ export const parseBitcoinInput = async (input: string): Promise<Destination> => 
 		if (amountSection) {
 			amount = amountSection.value / 1000;
 		} else {
-			throw new Error("Error decoding provided invoice");
+			throw new Error("0 sats invoice");
 		}
 		return {
 			type: InputClassification.LN_INVOICE,
